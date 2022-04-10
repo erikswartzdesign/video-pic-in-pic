@@ -13,11 +13,11 @@ async function selectMediaStream() {
         
     } catch (error) {
         // Catch Error Here
-        console.log('Ya fucked this one up, bro', error);
+        // console.log('Ya fucked this one up, bro', error);
     }
 }
 
-buttonElement.addEventListener('click', async () => {
+button.addEventListener('click', async () => {
     // Disable the button when clicked
     button.disabled = true;
     // Start picture in picture
@@ -26,6 +26,7 @@ buttonElement.addEventListener('click', async () => {
     button.disabled = false;
 });
 
+// On Load
 selectMediaStream();
 
 
