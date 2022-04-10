@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,38,37);
+}
+
+button {
+  cursor: pointer;  
+  padding: 2vh 2vw;
+  font-family: Barlow, sans-serif;
+  font-size: 40px;
+  color: white;
+  background: rgb(37,37,37);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.button-container {
+    background: midnightblue;
+    padding: 2vh 1vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button:active {
+    cursor: pointer;
+    transform: translate(0, 0.3rem);
+}
+
+
